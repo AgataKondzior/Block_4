@@ -1,7 +1,7 @@
 var main = function()
 {   
   $(".content").click(function(){
-    $(this).toggle("slow");  
+    $(this).toggle("fast");  
       
   });
 };
