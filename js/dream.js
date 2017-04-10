@@ -2,7 +2,7 @@ var main = function()
 {  
   $(".hidden").hide()
   $(".content").click(function(){
-    $(this).toggle("fast");  
+    $(".hidden").toggle("fast");  
       
   });
 };
